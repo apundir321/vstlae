@@ -1,0 +1,221 @@
+#blog {
+    margin-top: 140px;
+}
+#blog h2{
+    font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    color: #0D4C85;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#blog h3{
+    color: #333333;
+    background: url(../img/lineborder.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0px 100%;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 60px;
+    font-weight: 600;
+    color: #333333;
+}
+#blog h3 span{
+    color: #A62320;
+}
+#blog h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#blog p{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    margin-top: 22px;
+    margin-bottom: 18px;
+}
+#blog .box{
+    padding: 8px;
+}
+
+#blog .img{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#blog .img img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.img:hover img {
+    transform: scale(1.2);
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#blog .btn{
+    color: #A62320;
+    border: 2px solid #A62320;
+    font-size: 15px;
+    text-align: center;
+    padding: 6px 15px;
+    z-index: 9;
+    font-family: "Overpass";
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+
+
+
+
+#blog-details{
+    margin-top: 130px;
+}
+
+#blog-details .btn{
+    background-color: #E01C1D;
+    border: none;
+    border-radius: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-top: -9%;
+}
+#blog-details h4{
+    color: #2C3740;
+    font-size: 32px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#blog-details h6{
+    color: #E01C1D;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#blog-details p{
+    color: #9B9B9B;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+#blog-details h5{
+    color: #2C3740;
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#blog-details ul li{
+    list-style: none;
+    margin-left: -4%;
+    color: #9B9B9B;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    line-height: 27px;
+}
+#blog-details form input{
+    padding: 20px;
+    border-radius: 0px !important;
+}
+#blog-details form textarea{
+    padding: 20px;
+    border-radius: 0px !important;
+}
+#blog-details form::placeholder{
+    color: #9B9B9B !important;
+}
+#blog-details .second-ul ul li a{
+    color: #9B9B9B;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: -20px;
+}
+#blog-details .second-ul ul li a{
+    margin-top: 10px;
+    line-height: 40px;
+}
+#blog-details .second-ul ul li a:hover{
+    color: #E01C1D;
+}
+#blog-details .colored{
+    background-color: #F6F6F6;
+    padding: 18px;
+}
+#blog-details button{
+    background-color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 2px solid #E01C1D;
+    color: #E01C1D;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+#blog-details button:hover{
+    background-color: #E01C1D;
+    color: #fff;
+}
+
+
+@media (max-width: 992px) {
+    #blog-details .leftcol{
+        width: 100% !important;
+    }
+    #blog-details .rightcol{
+        width: 100% !important;
+        margin-top: 30px;
+        margin-left: 0px !important;
+    }
+    #blog-details .second-ul .box h4{
+        margin-top: 12px;
+    }
+}
+
+#blog-details .second-ul .box{
+    margin-left: 0px;
+    padding-bottom: 18px;
+}
+#blog-details .second-ul .box img{
+    width: 60px;
+    border-radius: 50px;
+    float: left;
+    object-fit: cover;
+    margin-right: 16px;
+    height: 60px;
+    margin-top: -10px;
+}
+#blog-details .second-ul .box h4{
+    font-size: 13px;
+}
+#blog-details .second-ul a:hover h4{
+    color: #A62320;
+}
+#blog-details .second-ul .border-1{
+    border-bottom: 2px solid #A62320;
+    margin-left: -25px;
+}
+#blog-details .second-ul .border-2{
+    border-bottom: 2px solid #A62320;
+    margin-left: -25px;
+}

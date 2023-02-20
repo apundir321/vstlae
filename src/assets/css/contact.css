@@ -1,0 +1,874 @@
+
+
+/*--------------------------------------------------------------
+
+# Contact Page
+
+--------------------------------------------------------------*/
+
+#hero .carousel-item::before {
+
+    content: '';
+
+    background-image: linear-gradient(to right, #004788 , #004788);
+
+    opacity: 0.4;
+
+}
+
+
+
+/*--------------------------------------------------------------
+
+# services product section we are section
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+
+# Team Section
+
+--------------------------------------------------------------*/
+
+
+
+#teama{
+
+  margin-top: 7rem;
+
+}
+
+
+
+#footer .footer-slider .image-container img{
+
+  width:auto;
+
+  height:30px;
+
+  /* width:50%; */
+
+}
+
+
+
+#teama .boxone{
+
+    background: #fff;
+
+    padding: 25px;
+
+}
+
+
+
+.teama .first-box {
+
+  border: 1px solid #CCCCCC;
+
+  -webkit-border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  border-radius: 10px;
+
+/* box-shadow */
+
+   transition: all ease-in-out 0.3s;
+
+  background: #fff;
+
+  padding:30px 20px;
+
+}
+
+
+
+.teama .first-box .icon img {
+
+  width:50px;
+
+  height: auto;
+
+}
+
+
+
+
+
+.teama .first-box h4 {
+
+  font-weight: 600;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-size: 20px;
+
+  color:#333333;
+
+  clear:both;
+
+  margin-top:15px;
+
+}
+
+
+
+.teama .first-box p {
+
+  font-size: 13px;
+
+  margin-bottom: 25px;
+
+  color:#333333;
+
+  font-weight: 400;
+
+  font-family: 'Overpass', sans-serif;
+
+  opacity: 0.7;
+
+}
+
+
+
+.teama .second-box {
+
+  border: 1px solid #CCCCCC;
+
+  -webkit-border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  border-radius: 10px;
+
+/* box-shadow */
+
+   transition: all ease-in-out 0.3s;
+
+  background: #0D4C85;
+
+  padding:30px 20px;
+
+  width: 100%;
+
+}
+
+
+
+.teama .second-box h4{
+
+  font-weight: 600;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-size: 36px;
+
+  color:#FEFEFE;
+
+  clear:both;
+
+}
+
+
+
+#teama  .second-box .btn-email {
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 200;
+
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+    line-height: 1;
+
+    color: #fff;
+
+    -webkit-animation-delay: 0.8s;
+
+    animation-delay: 0.8s;
+
+    background: #A62320;
+
+    border: 1px solid #A62320;
+
+    width: fit-content;
+
+    margin-top: 40px;
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+
+
+
+.teama .third-box {
+
+  border: 1px solid #CCCCCC;
+
+  -webkit-border-radius: 10px;
+
+  -moz-border-radius: 10px;
+
+  border-radius: 10px;
+
+/* box-shadow */
+
+   transition: all ease-in-out 0.3s;
+
+  background: #fff;
+
+  padding:30px 20px;
+
+}
+
+
+
+.teama .third-box .icon img {
+
+  width:50px;
+
+  height: auto;
+
+}
+
+
+
+
+
+.teama .third-box h4 {
+
+  font-weight: 600;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-size: 20px;
+
+  color:#333333;
+
+  clear:both;
+
+  margin-bottom:15px;
+
+}
+
+
+
+.teama .third-box p {
+
+  font-size: 13px;
+
+  margin-bottom: 25px;
+
+  color:#333333;
+
+  font-weight: 400;
+
+  font-family: 'Overpass', sans-serif;
+
+  opacity: 0.7;
+
+}
+
+
+
+.teama .third-box p a{
+
+  color:#333333;
+
+}
+
+
+
+.teama .third-box p i{
+
+  color:#0D4C85;
+  font-size: 14px;
+
+}
+
+
+
+.btnholder{
+
+  margin:30px auto;
+
+}
+
+
+
+
+
+  #teama .btn-all-product{
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 200;
+
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+    line-height: 1;
+
+    color: #fff;
+
+    -webkit-animation-delay: 0.8s;
+
+    animation-delay: 0.8s;
+
+    background: #A62320;
+
+    border: 1px solid #A62320;
+
+    width: fit-content;
+
+    margin-top: -60px; 
+
+    float:right; 
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Our Services Section
+
+--------------------------------------------------------------*/
+
+
+
+#contactus .head{
+
+  text-align: center;
+
+}
+
+
+
+#contactus h3{
+
+  font-size: 16px;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 200;
+
+    padding: 0;
+
+    margin: 0;
+
+    color: #0D4C85;
+
+    text-transform: uppercase;
+
+    display: inline-block;
+
+}
+
+
+
+#contactus h2{
+
+  font-family: 'Rubik', sans-serif;
+
+    margin: 10px 0 0 0;
+
+    font-size: 60px;
+
+    font-weight: 600;
+
+    color: #333333;
+
+}
+
+
+
+.contactus .php-email-form {
+
+  padding: 30px;
+
+}
+
+
+
+.contactus .php-email-form .validate {
+
+  display: none;
+
+  color: red;
+
+  margin: 0 0 15px 0;
+
+  font-weight: 400;
+
+  font-size: 13px;
+
+}
+
+
+
+.contactus .php-email-form .error-message {
+
+  display: none;
+
+  color: #fff;
+
+  background: #ed3c0d;
+
+  text-align: left;
+
+  padding: 15px;
+
+  font-weight: 600;
+
+}
+
+
+
+.contactus .php-email-form .error-message br + br {
+
+  margin-top: 25px;
+
+}
+
+
+
+.contactus .php-email-form .sent-message {
+
+  display: none;
+
+  color: #fff;
+
+  background: #18d26e;
+
+  text-align: center;
+
+  padding: 15px;
+
+  font-weight: 600;
+
+}
+
+
+
+.contactus .php-email-form .loading {
+
+  display: none;
+
+  background: #fff;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
+
+
+
+.contactus .php-email-form .loading:before {
+
+  content: "";
+
+  display: inline-block;
+
+  border-radius: 50%;
+
+  width: 24px;
+
+  height: 24px;
+
+  margin: 0 10px -6px 0;
+
+  border: 3px solid #18d26e;
+
+  border-top-color: #eee;
+
+  -webkit-animation: animate-loading 1s linear infinite;
+
+  animation: animate-loading 1s linear infinite;
+
+}
+
+
+
+.contactus .php-email-form input, .contact .php-email-form textarea {
+
+  border-radius: 0;
+
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+
+  font-size: 16px;
+
+  color: #747474;
+
+  padding:20px;
+
+  border-radius: 5px;
+
+  font-family: "Overpass", sans-serif;
+
+  font-weight: 200;
+
+}
+
+
+
+.contactus .php-email-form input:focus, .contact .php-email-form textarea:focus {
+
+  border-color: #106eea;
+
+}
+
+
+
+.contact .php-email-form input {
+
+  padding: 20px 15px;
+
+}
+
+
+
+.contactus .php-email-form textarea {
+
+  padding: 12px 15px;
+
+  font-size: 16px;
+
+  color: #747474;
+
+  font-family: "Overpass", sans-serif;
+
+  font-weight: 200;
+
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+
+}
+
+
+
+.contactus .php-email-form button[type="submit"] {
+
+  background: #A62320;
+
+  border: 0;
+
+  padding: 10px 30px;
+
+  color: #fff;
+
+  transition: 0.4s;
+
+  border-radius: 5px;
+
+  font-family: "Overpass",sans-serif;
+
+  font-weight: 400;
+
+  font-size: 18px;
+
+  margin-top: 30px;
+
+}
+
+
+
+.contactus .php-email-form button[type="submit"]:hover {
+
+  background: #3b8af2;
+
+}
+
+
+
+@-webkit-keyframes animate-loading {
+
+  0% {
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
+
+@keyframes animate-loading {
+
+  0% {
+
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Newsletter css 
+
+--------------------------------------------------------------*/
+
+
+
+
+
+#newsletter .footer-newsletter {
+
+  padding: 30px 30px;
+
+  background-image: linear-gradient(to right, #A62223 , #0E4C85);
+
+  border-radius: 15px;
+
+}
+
+
+
+#newsletter .newstext{
+
+  float:left;
+
+}
+
+#newsletter .newstext .image-container{
+
+  float:left;
+
+  margin-right:25px;
+
+}
+
+
+
+#newsletter .footer-newsletter h4 {
+
+  color: #FFFFFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 600;
+
+    font-size: 22px;
+
+  margin: 0 0 20px 0;
+
+  padding: 0;
+
+}
+
+
+
+#newsletter .footer-newsletter p {
+
+  color: #FFFFFF;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+}
+
+
+
+#newsletter .footer-newsletter form {
+
+  margin-top: 30px;
+
+  background: #fff;
+
+  padding: 10px 10px;
+
+  position: relative;
+
+  border-radius: 4px;
+
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+
+  text-align: left;
+
+  float:right;
+
+  width: 100%
+
+}
+
+
+
+#newsletter .footer-newsletter form input[type="email"] {
+
+  border: 0;
+
+  padding: 4px 8px;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+  width: calc(100% - 100px);
+
+}
+
+
+
+#newsletter .footer-newsletter form input[type="submit"] {
+
+  position: absolute;
+
+  right: 10px;
+
+  top:5px;
+
+  border: 0;
+
+  font-size: 16px;
+
+  padding: 7px 20px;
+
+  background: #A62320;
+
+  color: #ffffff;
+
+  transition: 0.3s;
+
+  border-radius: 5px;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Footer Slider
+
+--------------------------------------------------------------*/
+
+
+
+#footer .footer-slider {
+
+  padding: 30px 0 10px 0;
+
+  background: #F5F5F5;
+
+  text-align: center;
+
+}
+
+
+
+#footer .footer-slider .image-container{
+
+  padding: 20px 10px;
+
+  width: 100%;
+
+  background: #D6D6D6;
+
+  text-align: -webkit-center;
+
+}
+
+
+
+/* #footer .footer-slider .image-container img{
+
+  width:auto;
+
+  } */
+
+
+
+/*--------------------------------------------------------------
+
+# Media Queries for responsivness
+
+--------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+
+
+
+
+#services .btn-all-product{
+
+  float:none;
+
+  margin-top: 25px;
+
+}
+
+
+
+}
+
+
+
+
+.templateWrapper {
+  background-image: none;
+  background-color: #FFFFFF;
+  border: 1px solid red;
+}
+
+
+.errorText{
+  color: rgb(255, 54, 54);
+  font-size: 13px;
+  margin-bottom: 0;
+}

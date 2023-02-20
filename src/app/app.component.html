@@ -1,0 +1,151 @@
+
+
+
+<router-outlet></router-outlet>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+aria-hidden="true">
+
+<div class="modal-dialog modal-lg" role="document">
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                <span aria-hidden="true">&times;</span>
+
+            </button>
+
+        </div>
+
+        <div class="modal-body">
+
+            <form role="form" class="form">
+
+                <div class="form-row">
+
+                    <div class="form-group col-md-6 ">
+
+                        <label for="inputName4">Name</label>
+
+                        <input type="text" name="name" class="form-control" id="nameq" placeholder="Name">
+                        <p class="Error" id="NameError"></p>
+                    </div>
+
+                    <div class="form-group quite-form col-md-6">
+
+                        <label for="inputPhone">Phone No.</label>
+
+                        <!-- <input class="form-control store-inputt" type="tel" id="phone" name="phone"
+                            style="padding-left: 72px;width: 418px!important;" /> -->
+                            <ngx-intl-tel-input
+                              [cssClass]="'form-control store-inputt'"
+                              [preferredCountries]="preferredCountries"
+                              [enableAutoCountrySelect]="true"
+                              [enablePlaceholder]="true"
+                              [searchCountryFlag]="true"
+                              [searchCountryField]="[
+                                SearchCountryField.Iso2,
+                                SearchCountryField.Name
+                              ]"
+                              [selectFirstCountry]="false"
+                              [selectedCountryISO]="CountryISO.India"
+                              [maxLength]="'15'"
+                              [phoneValidation]="true"
+                              [separateDialCode]="separateDialCode"
+                              [numberFormat]="PhoneNumberFormat.National"
+                              [(ngModel)]="phone" style="padding-left: 72px;width: 418px!important;"
+                            >
+                            </ngx-intl-tel-input>
+                        <p class="Error" id="PhoneError"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="inputEmail2">Email</label>
+
+                    <input type="email" name="email" class="form-control" id="emailq">
+                    <p class="Error" id="EmailError"></p>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for="inputCompanyname4">Company Name</label>
+
+                    <input type="text" class="form-control" name="company" id="company">
+                    <p class="Error" id="CompanyError"></p>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-md-6">
+
+                        <label for="inputitem">Item</label>
+
+                        <select id="items" class="form-control" placeholder="Choose" name="item" required>
+
+                            <option selected value="">Please Select</option>
+
+                            <option value="Laptop">Laptop</option>
+
+                            <option value="SSD">SSD</option>
+
+                            <option value="RAM">RAM / Memory</option>
+
+                            <option value="Desktop & Barebones">Desktop & Barebones</option>
+                            <option value="CPUs / Processor">CPUs / Processor</option>
+                            <option value="Desktop HDDs">Desktop HDDs</option>
+                            <option value="Wifi Dongle">Wifi Dongle</option>
+                            <option value="Graphics Card">Graphics Card</option>
+                            <option value="Motherboard">Motherboard</option>
+                            <option value="Mouse & Keyboard">Mouse & Keyboard</option>
+                            <option value="Others">Others</option>
+
+                        </select>
+                        <p class="Error" id="ItemsError"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group col-md-12">
+
+                        <label for="inputqty">Quantity</label>
+
+                        <input type="text" class="form-control" id="quantity" placeholder="Quantity">
+                        <p class="Error" id="QuantityError"></p>
+
+                    </div>
+
+                </div>
+
+                <div class="text-center"><button type="button" (click)="Quite_Form()">Get Quote</button></div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

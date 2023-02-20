@@ -1,0 +1,1024 @@
+/*--------------------------------------------------------------
+
+# About Page
+
+--------------------------------------------------------------*/
+
+#hero .carousel-item::before {
+
+  content: '';
+
+  background-image: linear-gradient(to right, #004788, #004788);
+
+  opacity: 0.4;
+
+}
+
+
+
+#hero {}
+
+
+
+#about .knoww {
+
+  background: url("../img/image.png");
+
+  background-repeat: no-repeat;
+
+  -moz-background-size: 100% 100%;
+
+  -webkit-background-size: 100% 100%;
+
+  background-size: 100% 100%;
+
+  min-height: 450px;
+
+}
+
+
+
+#about h2.mt45 {
+
+  margin-top: 45px;
+
+}
+
+
+
+#about h5 {
+
+  font-size: 16px;
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  margin-top: 10px;
+
+  color: #333333;
+
+}
+
+
+/*--------------------------------------------------------------
+
+# Our Services Section
+
+--------------------------------------------------------------*/
+
+
+
+#ourservice .head {
+
+  text-align: center;
+
+}
+
+
+
+#ourservice h3 {
+
+  font-size: 16px;
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 200;
+
+  padding: 0;
+
+  margin: 0;
+
+  color: #0D4C85;
+
+  text-transform: uppercase;
+
+  display: inline-block;
+
+}
+
+
+
+#ourservice h2 {
+
+  font-family: 'Rubik', sans-serif;
+
+  margin: 10px 0 0 0;
+
+  font-size: 60px;
+
+  font-weight: 600;
+
+  color: #333333;
+
+}
+
+
+
+#ourservice h6 {
+
+  font-family: 'Overpass', sans-serif;
+
+  margin: 30px 0 0px 0;
+
+  font-size: 18px;
+
+  font-weight: 200;
+
+  color: #333333;
+
+}
+
+
+
+#ourservice h2.custombg {
+
+  color: #333333;
+
+  background: url(../img/lineborder.png);
+
+  background-repeat: no-repeat;
+
+  -moz-background-size: 100% 100%;
+
+  -webkit-background-size: 100% 100%;
+
+  background-size: auto;
+
+  background-position: 50% 100%;
+
+}
+
+
+
+
+
+#ourservice h2 span {
+
+  color: #A62320;
+
+}
+
+
+
+#ourservice p {
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+  color: #333333;
+
+  margin-top: 2rem;
+
+}
+
+
+
+#ourservice .btn-more-info {
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 200;
+
+  font-size: 16px;
+
+  display: inline-block;
+
+  padding: 12px 25px;
+
+  border-radius: 5px;
+
+  transition: 0.5s;
+
+  line-height: 1;
+
+  color: #fff;
+
+  -webkit-animation-delay: 0.8s;
+
+  animation-delay: 0.8s;
+
+  background: #A62320;
+
+  border: 1px solid #A62320;
+
+  width: fit-content;
+
+  margin-top: 2rem;
+
+}
+
+
+
+#ourservice .secondsec {
+
+  background: url("../img/whobg.jpg");
+
+  background-repeat: no-repeat;
+
+  -moz-background-size: 130% 67%;
+
+  -webkit-background-size: 130% 67%;
+
+  background-size: 130% 67%;
+
+  min-height: 550px;
+
+}
+
+
+
+#ourservice .containtext {
+
+  width: 80%;
+
+}
+
+
+
+#ourservice .invest {
+
+  background: linear-gradient(to right, #A62223, #224985);
+
+  color: #fff;
+
+  bottom: 0;
+
+  position: absolute;
+
+  width: 100%;
+
+  margin-left: -15px;
+
+  padding: 30px;
+
+}
+
+
+
+#ourservice h5 {
+
+  font-family: 'Overpass', sans-serif;
+
+  margin: 0px 0 0 0;
+
+  font-size: 18px;
+
+  font-weight: 400;
+
+  color: #FFFFFF;
+
+}
+
+
+
+#ourservice p.second {
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 200;
+
+  font-size: 13px;
+
+  color: #FFFFFF;
+
+  margin-top: 1rem;
+
+}
+
+
+
+#ourservice h4 {
+
+  font-family: 'Overpass', sans-serif;
+
+  margin: 0px 0 0 0;
+
+  font-size: 13px;
+
+  font-weight: 600;
+
+  color: #FFFFFF;
+
+}
+
+
+
+#ourservice h4 a {
+
+  margin: 0px 0 0 12px;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  color: #FFFFFF;
+
+}
+
+
+
+#ourservice .icon-container img {
+
+  width: 100%;
+
+  height: auto;
+
+  max-width: 65px;
+
+  max-height: 65px;
+
+}
+
+
+
+#ourservice .icon-text {}
+
+
+
+#ourservice .icon-text h6 {
+
+  font-family: 'Rubik', sans-serif;
+
+  text-align: left;
+
+  margin: 0px 0 0 0;
+
+  font-size: 18px;
+
+  font-weight: 800;
+
+  color: #333333;
+
+}
+
+
+
+#ourservice .icon-text p {
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 17px;
+
+  color: #333333;
+
+  margin-top: 5px;
+
+}
+
+
+
+#ourservice .content {
+
+  margin-top: 40px;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# services product section we are section
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+
+# Team Section
+
+--------------------------------------------------------------*/
+
+#teama .boxone {
+
+  background: #fff;
+
+  padding: 25px;
+
+}
+
+
+
+.teama .icon-box {
+
+  border: 1px solid #F7F7F7;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 10px;
+
+  /* box-shadow */
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0 5px;
+
+  -moz-box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.8) 0 0 5px;
+
+  transition: all ease-in-out 0.3s;
+
+  background: #fff;
+
+  padding: 25px 15px;
+
+}
+
+
+
+.teama .icon-box h4 {
+
+  font-weight: 600;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-size: 20px;
+
+  color: #333333;
+
+  clear: both;
+
+}
+
+
+
+.teama .icon-box h6 {
+
+  color: #202020;
+
+  transition: ease-in-out 0.3s;
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 14px;
+
+  opacity: 0.4;
+
+}
+
+
+
+.teama .icon-box p {
+
+  font-size: 13px;
+
+  margin-bottom: 25px;
+
+  color: #333333;
+
+  font-weight: 400;
+
+  font-family: 'Overpass', sans-serif;
+
+  opacity: 0.7;
+
+}
+
+
+
+.teama .icon-box p.link {
+
+  opacity: 1;
+
+  margin-bottom: 0px;
+
+}
+
+
+
+.teama .icon-box p a {
+
+  color: #fff;
+
+  background: #0D4C85;
+
+  opacity: 1;
+
+  margin-left: 15px;
+
+}
+
+.teama .icon-box p a:hover {
+
+  color: #0D4C85;
+
+  background: #fff;
+
+  opacity: 1;
+
+  margin-left: 15px;
+
+}
+
+
+
+.teama .icon-box p a:first-child {
+
+  margin-left: 0px;
+
+}
+
+
+
+.btnholder {
+
+  margin: 30px auto;
+
+}
+
+
+
+.teama .icon-box:hover {
+
+  /*  border-color: #fff;
+
+  box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);*/
+
+}
+
+
+
+
+
+#teama .btn-all-product {
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 200;
+
+  font-size: 16px;
+
+  display: inline-block;
+
+  padding: 12px 25px;
+
+  border-radius: 5px;
+
+  transition: 0.5s;
+
+  line-height: 1;
+
+  color: #fff;
+
+  -webkit-animation-delay: 0.8s;
+
+  animation-delay: 0.8s;
+
+  background: #A62320;
+
+  border: 1px solid #A62320;
+
+  width: fit-content;
+
+  margin-top: -60px;
+
+  float: right;
+
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Map css 
+
+--------------------------------------------------------------*/
+
+#map .map-container {
+
+  background: url("../img/map.png");
+
+  background-repeat: no-repeat;
+
+  -moz-background-size: 130% 67%;
+
+  -webkit-background-size: 130% 67%;
+
+  background-size: 130% 67%;
+
+  min-height: 550px;
+
+
+
+}
+
+
+
+#map .map-container img {
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Newsletter css 
+
+--------------------------------------------------------------*/
+
+
+
+
+
+#newsletter .footer-newsletter {
+
+  padding: 30px 30px;
+
+  background-image: linear-gradient(to right, #A62223, #0E4C85);
+
+  border-radius: 15px;
+
+}
+
+
+
+#newsletter .newstext {
+
+  float: left;
+
+}
+
+#newsletter .newstext .image-container {
+
+  float: left;
+
+  margin-right: 25px;
+
+}
+
+
+
+#newsletter .footer-newsletter h4 {
+
+  color: #FFFFFF;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-weight: 600;
+
+  font-size: 22px;
+
+  margin: 0 0 20px 0;
+
+  padding: 0;
+
+}
+
+
+
+#newsletter .footer-newsletter p {
+
+  color: #FFFFFF;
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 14px;
+
+}
+
+
+
+#newsletter .footer-newsletter form {
+
+  margin-top: 30px;
+
+  background: #fff;
+
+  padding: 10px 10px;
+
+  position: relative;
+
+  border-radius: 4px;
+
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+
+  text-align: left;
+
+  float: right;
+
+  width: 100%
+}
+
+
+
+#newsletter .footer-newsletter form input[type="email"] {
+
+  border: 0;
+
+  padding: 4px 8px;
+
+  font-family: 'Rubik', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 14px;
+
+  width: calc(100% - 100px);
+
+}
+
+
+
+#newsletter .footer-newsletter form input[type="submit"] {
+
+  position: absolute;
+
+  right: 10px;
+
+  top: 5px;
+
+  border: 0;
+
+  font-size: 16px;
+
+  padding: 7px 20px;
+
+  background: #A62320;
+
+  color: #ffffff;
+
+  transition: 0.3s;
+
+  border-radius: 5px;
+
+  font-family: 'Overpass', sans-serif;
+
+  font-weight: 400;
+
+  font-size: 16px;
+
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Footer Slider
+
+--------------------------------------------------------------*/
+
+
+
+#footer .footer-slider {
+
+  padding: 30px 0 10px 0;
+
+  background: #F5F5F5;
+
+  text-align: center;
+
+}
+
+
+
+#footer .footer-slider .image-container {
+
+  padding: 20px 10px;
+
+  width: 100%;
+
+  background: #D6D6D6;
+
+  text-align: -webkit-center;
+
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Media Queries for responsivness
+
+--------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+  #services .btn-all-product {
+
+    float: none;
+
+    margin-top: 25px;
+
+  }
+
+
+
+  .whatsapp h5 {
+
+    color: white;
+
+    background: #205a19;
+
+    border-radius: 10%;
+
+    box-sizing: border-box;
+
+    z-index: 10000;
+
+    object-fit: cover;
+
+    font-family: sans-serif;
+
+    font-size: .7rem;
+
+    margin: .6rem;
+
+    padding: .3rem;
+
+
+
+  }
+
+  .whatsapp h5 i {
+
+    text-align: center;
+
+    align-items: center;
+
+  }
+
+  .whatsapp {
+
+    position: fixed;
+
+    right: 4%;
+
+    bottom: 1%;
+
+    z-index: 100000;
+
+  }
+
+
+
+  .form-group textarea {
+
+    width: 100%;
+
+  }
+
+}
+
+
+
+
+.sub-top {
+  font-weight: bold !important;
+}
+
+.main-rocket-section {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  border-radius: 6px;
+  background: linear-gradient(201deg, rgba(239, 81, 81, 0.63) 20%, rgba(93, 255, 255, 0.474) 80%);
+  box-shadow: 0px 0px 17px -7px rgba(255, 0, 0, 0.664);
+  transition: all 0.5s ease-in-out;
+}
+
+.main-rocket-section:hover {
+  background: linear-gradient(201deg, rgba(93, 255, 255, 0.474) 20%, rgba(239, 81, 81, 0.63) 80%);
+  box-shadow: 0px 0px 17px -5px rgba(255, 0, 0, 0.664);
+}
+
+.icon-container img {
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.icon-text h6 {
+  font-size: 17px !important;
+}
+
+.icon-text p {
+  font-size: 15px !important;
+}
+
+
+
+.about-map{
+  width: 100%;
+  height: 74vh;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 10px;
+}
+
+.about-map iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+.inner-flag {
+  border: 1px solid rgb(225, 225, 225);
+  height: 74vh;
+  border-radius: 10px;
+  padding: 6px;
+  overflow-y: scroll;
+}
+
+/* width */
+.inner-flag::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.inner-flag::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+.inner-flag::-webkit-scrollbar-thumb {
+  background: rgb(104, 156, 247);
+  border-radius: 20px;
+}
+
+.country-section {
+  border: 1px solid rgb(118, 167, 246);
+  border-radius: 10px;
+}
+
+.inner-flag ul {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inner-flag ul li {
+  width: 49%;
+  margin: 2px;
+}
+
+.inner-flag ul li:hover {
+  background: linear-gradient(201deg, rgba(239, 81, 81, 0.63) 20%, rgba(93, 255, 255, 0.474) 80%);
+  border-radius: 10px;
+}
+
+.inner-flag ul li img {
+  width: 60px;
+  height: 50px;
+  margin: 0 10px 0 5px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.inner-flag ul li h5 {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.errorText {
+  color: rgb(255, 54, 54);
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+@media (max-width: 516px) {
+  #ourservice .content {
+    margin-top: 26px;
+  }
+  .inner-flag {
+    height: 50vh;
+    border-radius: 10px 10px 0 0;
+  }
+  .about-map {
+    height: 50vh;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 0 0 10px 10px;
+  }
+}

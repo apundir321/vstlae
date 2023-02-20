@@ -1,0 +1,893 @@
+
+
+/*--------------------------------------------------------------
+
+# Product Page
+
+--------------------------------------------------------------*/
+
+#hero .carousel-item::before {
+
+    content: '';
+
+    background-image: linear-gradient(to right, #004788 , #004788);
+
+    opacity: 0.4;
+
+}
+
+
+
+/*--------------------------------------------------------------
+
+# product product section we are section
+
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+
+# Team Section
+
+--------------------------------------------------------------*/
+
+#product{
+
+  
+
+}
+
+
+
+
+
+#product .section-title{
+
+    padding-bottom: 0;
+
+    border-bottom: 2px solid #0D4C85;
+
+    margin-bottom: 30px;
+
+}
+
+#product h2 {
+
+    font-size: 16px;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 200;
+
+    padding: 10px;
+
+    margin: 0;
+
+    background: #0D4C85;
+
+    text-transform: none;
+
+    color: #fff;
+
+    display: inline-block;
+
+}
+
+
+
+
+
+#product{
+
+  
+
+}
+
+
+
+#product .boxone{
+
+    background: #fff;
+
+    padding: 0px 25px;
+
+}
+
+
+
+.product .uppersec{
+
+}
+
+
+
+.product .bottomsec{
+
+}
+
+
+
+.blackimg{
+
+  width:100%;
+
+  height: auto;
+
+  border-radius: 3% 3% 0% 0%;
+
+  object-fit:cover;
+
+}
+
+.product .icon-box {
+
+  width: 100%;
+
+  border: 1px solid #F7F7F7;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 10px;
+
+/* box-shadow */
+
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 5px;
+
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+
+  box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+
+   transition: all ease-in-out 0.3s;
+
+  background: #fff;
+
+  padding-bottom: 15px;
+
+  margin-bottom: 30px;
+
+}
+
+
+
+.product .icon-box h4 {
+
+  font-weight: 400;
+
+  font-family: 'Rubik', sans-serif;
+
+  margin-left: 25px;
+
+  margin-top: 25px;
+
+  font-size: 14px;
+
+  color:#333333;
+
+  clear:both;
+
+  margin-bottom: 0px;
+
+}
+
+
+
+
+
+.product .icon-box p.cart {
+
+  float: right;
+
+  margin-top: 15px;
+
+}
+
+
+
+.product .icon-box p.cost {
+
+  font-size: 12px;
+
+  margin-bottom: 0;
+
+  color:#A62320;
+
+  font-weight: 200;
+
+  font-family: 'Overpass', sans-serif;
+
+  margin-left: 25px;
+
+  padding-right: 10px;
+
+  float: left;
+
+  margin-top: 15px;
+
+}
+
+
+
+.product .icon-box p {
+
+  font-size: 12px;
+
+  margin-bottom: 0;
+
+  color:#8D8D8D;
+
+  font-weight: 200;
+
+  font-family: 'Overpass', sans-serif;
+
+  margin-left: 25px;
+
+  padding-right: 10px;
+
+}
+
+
+
+.product .icon-box h4 a {
+
+  color: #222222;
+
+  transition: ease-in-out 0.3s;
+
+  font-family: "Roboto";
+
+  font-weight: 600;
+
+  font-size:28px;
+
+}
+
+
+
+
+
+
+
+
+
+.comm{padding-top: 50px;
+
+    clear: both;
+
+    margin-left: 25px;}
+
+
+
+
+
+
+
+    .message{font-size: 12px;
+
+    margin-right: 10px;
+
+    margin-left: 15px;}
+
+
+
+.product .icon-box .icon {
+
+  margin: 0 auto;
+
+  transition: ease-in-out 0.3s;
+
+  position: relative;
+
+  padding-bottom:10px;
+
+}
+
+
+
+.product .icon-box .icon i {
+
+  color: #A62320;
+
+  font-size: 16px;
+
+  transition: ease-in-out 0.3s;
+
+}
+
+.product .icon-box .icon i.left {
+
+  margin-left: 25px;
+
+}
+
+
+
+.product .icon-box .icon .date{
+
+  cursor: pointer;
+
+    color: #fff;
+
+    background-color: #A62320;
+
+    margin-top: -15px;
+
+    margin-bottom:15px;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    padding: 5px 20px;
+
+    z-index: 9;
+
+    float: left;
+
+    margin-left: 25px;
+
+    font-family: "Overpass";
+
+    border-radius: 5px;
+
+    font-weight: 200;
+
+  }
+
+
+
+.btnholder{
+
+  margin:30px auto;
+
+}
+
+
+
+.product .icon-box:hover {
+
+/*  border-color: #fff;
+
+  box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);*/
+
+}
+
+
+
+.product .icon-box:hover h4 a, .product .icon-box:hover .icon i {
+
+  color: #014f86;
+
+}
+
+
+
+.product .icon-box:hover .icon {
+
+  border-color: #014f86;
+
+}
+
+
+
+#product .btn-more-about {
+
+font-family: 'Karla', sans-serif;
+
+    font-weight: 500;
+
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+    color: #fff;
+
+    background: #014f86;
+
+    width: fit-content;
+
+  }
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Our product Section
+
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+
+# Info section
+
+--------------------------------------------------------------*/
+
+#infosec{
+
+  
+
+}
+
+
+
+#infosec .boxone{
+
+    background: #fff;
+
+    padding: 25px;
+
+}
+
+
+
+.infosec .leftsec{
+
+  width: 30%;
+
+  float: left;
+
+}
+
+
+
+.infosec .leftsec img{
+
+  margin-top: 15%;
+
+}
+
+
+
+.infosec .rightsec{
+
+  width: 65%;
+
+  float: left;
+
+}
+
+
+
+.infosec .icon-box .image-container{
+
+  width:30%;
+
+}
+
+
+
+.infosec .icon-box {
+
+  border: 1px solid #F7F7F7;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 10px;
+
+/* box-shadow */
+
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 5px;
+
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+
+  box-shadow: rgba(0,0,0,0.8) 0 0 5px;
+
+   transition: all ease-in-out 0.3s;
+
+  background: #fff;
+
+  padding:30px 20px;
+
+}
+
+
+
+
+
+.infosec .icon-box .icon {
+
+  margin: 0 auto;
+
+  transition: ease-in-out 0.3s;
+
+  position: relative;
+
+  padding-bottom:10px;
+
+}
+
+
+
+.infosec .icon-box .icon i {
+
+  color: #014f86;
+
+  font-size: 16px;
+
+  transition: ease-in-out 0.3s;
+
+}
+
+.infosec .icon-box .icon i.left {
+
+  margin-left: 25px;
+
+}
+
+
+
+.infosec .icon-box .icon .date{
+
+  cursor: pointer;
+
+    color: #fff;
+
+    background-color: #A62320;
+
+    margin-top: -15px;
+
+    margin-bottom:15px;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    padding: 5px 20px;
+
+    z-index: 9;
+
+    float: left;
+
+    margin-left: 25px;
+
+    font-family: "Overpass";
+
+    border-radius: 5px;
+
+    font-weight: 200;
+
+  }
+
+
+
+.infosec .icon-box h4 {
+
+  font-weight: 600;
+
+  font-family: 'Overpass', sans-serif;
+
+  margin-left: 25px;
+
+  font-size: 24px;
+
+  color:#333333;
+
+  clear:both;
+
+}
+
+
+
+.infosec .icon-box h4 a {
+
+  color: #222222;
+
+  transition: ease-in-out 0.3s;
+
+  font-family: "Roboto";
+
+  font-weight: 600;
+
+  font-size:28px;
+
+}
+
+
+
+.infosec .icon-box p {
+
+  font-size: 12px;
+
+  margin-bottom: 0;
+
+  color:#777777;
+
+  font-weight: 200;
+
+  font-family: 'Overpass', sans-serif;
+
+  margin-left: 25px;
+
+  padding-right: 10px;
+
+}
+
+
+
+
+
+.product .icon-box:hover {
+
+/*  border-color: #fff;
+
+  box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);*/
+
+}
+
+
+
+.infosec .icon-box:hover h4 a, .product .icon-box:hover .icon i {
+
+  color: #014f86;
+
+}
+
+
+
+.infosec .icon-box:hover .icon {
+
+  border-color: #014f86;
+
+}
+
+
+
+#infosec .btn-more-about {
+
+font-family: 'Karla', sans-serif;
+
+    font-weight: 500;
+
+    font-size: 16px;
+
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    border-radius: 5px;
+
+    transition: 0.5s;
+
+    color: #fff;
+
+    background: #014f86;
+
+    width: fit-content;
+
+  }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Newsletter css 
+
+--------------------------------------------------------------*/
+
+
+
+
+
+#newsletter .footer-newsletter {
+
+  padding: 30px 30px;
+
+  background-image: linear-gradient(to right, #A62223 , #0E4C85);
+
+  border-radius: 15px;
+
+}
+
+
+
+#newsletter .newstext{
+
+  float:left;
+
+}
+
+#newsletter .newstext .image-container{
+
+  float:left;
+
+  margin-right:25px;
+
+}
+
+
+
+#newsletter .footer-newsletter h4 {
+
+  color: #FFFFFF;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 600;
+
+    font-size: 22px;
+
+  margin: 0 0 20px 0;
+
+  padding: 0;
+
+}
+
+
+
+#newsletter .footer-newsletter p {
+
+  color: #FFFFFF;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+}
+
+
+
+#newsletter .footer-newsletter form {
+
+  margin-top: 30px;
+
+  background: #fff;
+
+  padding: 10px 10px;
+
+  position: relative;
+
+  border-radius: 4px;
+
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+
+  text-align: left;
+
+  float:right;
+
+  width: 100%
+
+}
+
+
+
+#newsletter .footer-newsletter form input[type="email"] {
+
+  border: 0;
+
+  padding: 4px 8px;
+
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+  width: calc(100% - 100px);
+
+}
+
+
+
+#newsletter .footer-newsletter form input[type="submit"] {
+
+  position: absolute;
+
+  right: 10px;
+
+  top:5px;
+
+  border: 0;
+
+  font-size: 16px;
+
+  padding: 7px 20px;
+
+  background: #A62320;
+
+  color: #ffffff;
+
+  transition: 0.3s;
+
+  border-radius: 5px;
+
+    font-family: 'Overpass', sans-serif;
+
+    font-weight: 400;
+
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+
+# Footer Slider
+
+--------------------------------------------------------------*/
+
+
+
+#footer .footer-slider {
+
+  padding: 30px 0 10px 0;
+
+  background: #F5F5F5;
+
+  text-align: center;
+
+}
+
+
+
+#footer .footer-slider .image-container{
+
+  padding: 20px 10px;
+
+  width: 100%;
+
+  background: #D6D6D6;
+
+  text-align: -webkit-center;
+
+}
+
+
+
+/* #footer .footer-slider .image-container img{
+
+  width:auto;
+
+  } */
+
+
+
+/*--------------------------------------------------------------
+
+# Media Queries for responsivness
+
+--------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+
+
+
+
+#product .btn-all-product{
+
+  float:none;
+
+  margin-top: 25px;
+
+}
+
+
+
+}
